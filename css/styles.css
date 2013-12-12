@@ -1,0 +1,112 @@
+
+body{
+	font-family: 'Luckiest Guy', cursive;
+	background-color: hotpink;
+}
+ul{
+	list-style: none;
+}
+li{
+	float:left;
+	padding-left: 230px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color:black;
+	font-style:italic;
+
+}
+
+h1{
+	background-color: black;
+	border-radius: 50%;
+	border:5px solid white;
+}
+
+h1,
+p{
+	text-align: center;
+	color:white;
+}
+#intro{
+	padding-left: 220px;
+}
+#starter{
+	background-color: black;
+}
+
+.container{
+    width: auto;
+    height: auto;
+}
+
+img{
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+	display: block;
+}
+
+@media screen and (max-width: 1024px) {
+
+
+
+ul {
+	width:100%;
+}
+h1 {
+	margin:  0 0 5% 0;
+}
+img {
+	width: 100%;
+	text-align: center;
+}
+
+
+p {
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width : 650px) {
+
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+
+img{
+	margin: 5% 0;
+}
+
+h1{
+	width: 55%;
+	text-align: center;
+	}
+ul {
+	width: 100%;
+	margin: 0;
+	font-size: 1em;
+	}
+p{
+	display:none;
+}
+
